@@ -1,0 +1,47 @@
+.left-side-container {
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
+    /* box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    height: 400px;
+    width: 250px;
+    color: hsl(0, 0%, 100%);
+}
+
+.your-result {
+    color: rgb(218, 218, 218);
+}
+
+.percentage {
+    background-image: linear-gradient(to bottom, #2421ca, #4e21ca) ;
+    margin-top: 50px;
+    height: 80px; 
+    border: none;
+    width: 80px;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 160px;
+    padding: 60px 60px;
+    color: gray;
+}
+
+.number {
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+
+.compliment {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.message {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(218, 218, 218);
+}

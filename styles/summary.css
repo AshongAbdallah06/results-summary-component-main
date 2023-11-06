@@ -1,24 +1,25 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .right-side-container {
-    border: 1px solid hsl(0, 0%, 100%);
+    height: 400px;
     padding: 30px;
-    border-left: none;
-    border-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     display: inline-block;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
     width: 220px;
@@ -111,6 +112,10 @@ img {
     background-color: hsl(224, 30%, 27%);
     padding: 10px;
     margin-top: 20px;
+}
+
+.continue:hover {
+    background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
 }
 
 .attribution { 
