@@ -1,0 +1,121 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-side-container {
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 30px;
+    border-left: none;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.summary {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 16px;
+}
+
+.icons {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    margin-right: 30px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.reaction {
+    color: red;
+}
+
+.reaction-container {
+    background-color: hsla(0, 100%, 67%, 0.05)
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.memory-container {
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.verbal-container {
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.visual-container {
+    background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.hundred-percent {
+    display: inline-block;
+}
+
+.percent {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.hundred {
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.continue {
+    width: 240px;
+    height: 45px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
