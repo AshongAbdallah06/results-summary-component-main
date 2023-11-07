@@ -5,7 +5,7 @@ results.forEach((result) => {
     resultsHTML += `
     <div class="container ${(result.name).toLowerCase()}-container">
         <div class="icons">
-            <img src="${result.img}">
+            <img src="${result.img}" alt="${(result.name).toLowerCase()}">
         </div>
         <div class="${(result.name).toLowerCase()}">
             ${result.name}
