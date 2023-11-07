@@ -114,7 +114,7 @@ img {
 
 .attribution { 
     position: absolute;
-    bottom: 5rem;
+    bottom: 0;
     font-size: 11px; text-align: center;
     display: block;
 }
