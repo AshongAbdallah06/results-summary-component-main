@@ -3,11 +3,11 @@ import { results } from "./results.js";
 let resultsHTML = "";
 results.forEach((result) => {
     resultsHTML += `
-    <div class="container ${(result.name).toLowerCase()}-container">
+    <div class="container item-${(result.name).toLowerCase()}">
         <div class="icons">
             <img src="${result.img}" alt="${(result.name).toLowerCase()}">
         </div>
-        <div class="${(result.name).toLowerCase()}">
+        <div class="item">
             ${result.name}
         </div>
         <div class="hundred-percent">

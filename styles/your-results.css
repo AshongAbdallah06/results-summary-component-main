@@ -24,7 +24,7 @@
     display: inline-block;
     border-radius: 160px;
     padding: 60px 60px;
-    color: gray;
+    color: hsl(241, 100%, 89%);
 }
 
 .number {
@@ -44,4 +44,48 @@
     text-align: center;
     font-size: 10px;
     color: hsl(241, 100%, 89%);
+    display: inline-block;
+    width: 140px;
+}
+
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .your-result {
+        margin: 0;
+        margin-top: 15px;
+
+    }
+
+    .left-side-container {
+        padding-bottom: 20px;
+        padding: 0;
+        border-radius: 0;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        /* width: 23rem; */
+        /* height: 100%; */
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .percentage {
+        margin: 0;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .compliment {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 9px;
+    }
+
+    .message {
+        width: 160px;
+        margin-bottom: 10px;
+    }
 }

@@ -39,10 +39,7 @@ img {
     margin-right: 1rem;
 }
 
-.reaction,
-.memory,
-.verbal,
-.visual {
+.item {
     cursor: pointer;
     display: inline-block;
     width: 100px;
@@ -55,31 +52,31 @@ img {
     color: red;
 }
 
-.reaction-container {
-    background-color: hsla(0, 100%, 67%, 0.05)
+.item-reaction {
+    background-color: hsla(0, 100%, 67%, 0.07)
 }
 
 .memory {
     color: hsl(39, 100%, 56%);
 }
 
-.memory-container {
-    background-color: hsla(39, 100%, 56%, 0.05);
+.item-memory {
+    background-color: hsla(39, 100%, 56%, 0.07);
 }
 
 .verbal {
     color: hsl(166, 100%, 37%);
 }
 
-.verbal-container {
-    background-color: hsla(166, 100%, 37%, 0.05);
+.item-verbal {
+    background-color: hsla(166, 100%, 37%, 0.07);
 }
 
 .visual {
     color: hsl(234, 85%, 45%);
 }
 
-.visual-container {
+.item-visual {
     background-color: hsla(234, 85%, 45%, 0.05);
 }
 
@@ -123,4 +120,36 @@ img {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+    .right-side-container{
+        /* display: flex;
+        flex-direction: column; */
+        width: 23rem;
+        padding: 0;
+        padding-top: 15px;
+        border: none;
+        box-shadow: 0 0 0 0;
+    }
+
+    .container {
+        width: 100%;
+        /* background-color: lightblue; */
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .summary {
+        margin-bottom: 10px;
+    }
+
+    .item {
+        margin-right: 150px;
+    }
+
+    .continue {
+        width: 100%;
+    }
+    
 }
