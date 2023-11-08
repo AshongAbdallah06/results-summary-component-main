@@ -18,7 +18,11 @@
 ## Overview
 
 ### Screenshot
-- ("assets/images/Screenshot 2023-11-07 005132.png")
+**Desktop Design**
+- assets/images/desktop-design.png
+
+**Mobile Design**
+- assets/images/mobile-design.png
 
 ### Links
 
