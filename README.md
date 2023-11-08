@@ -19,10 +19,10 @@
 
 ### Screenshot
 **Desktop Design**
-- assets/images/desktop-design.png
+- ./assets/images/desktop-design.png
 
 **Mobile Design**
-- assets/images/mobile-design.png
+- ./assets/images/mobile-design.png
 
 ### Links
 
