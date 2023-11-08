@@ -17,17 +17,18 @@
 
 ## Overview
 
-### Screenshot
+### SCREENSHOTS
 **Desktop Design**
-- ./assets/images/desktop-design.png
+- ![](./assets/images/desktop-design.png)
 
 **Mobile Design**
-- ./assets/images/mobile-design.png
+- ![](./assets/images/mobile-design.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/results-summary-component-GIZz3QVAiq)
-- Live Site URL: [Add live site URL here](https://main-results-summary-component.netlify.app)
+- Solution URL: [https://www.frontendmentor.io/solutions/results-summary-component-GIZz3QVAiq]
+- Live Site URL: [https://main-results-summary-component.netlify.app]
+
 
 ## My process
 I created the desktop design first and then went on to create the mobile design. I had some difficulties at first but i had some help from friends and i was eventually able to do it. Created using HTML, CSS and JavaScript only.
